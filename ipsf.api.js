@@ -4,6 +4,6 @@ import upload from "./multer.helper.js";
 
 import { postImage } from "./ipsf.controller.js";
 
-router.post("/ipsf/img", upload.single("image"), postImage);
+router.post("/ipfs/img", upload.single("image"), postImage);
 
 export default { router };
